@@ -1,0 +1,25 @@
+{
+  "name": "ethereum-sepolia-dapp-contracts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SimpleStorage smart contract (Hardhat) for the Ethereum Sepolia DApp",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "interact:local": "hardhat run scripts/interact.js --network localhost",
+    "interact:sepolia": "hardhat run scripts/interact.js --network sepolia",
+    "export-abi": "node scripts/export-abi.js",
+    "clean": "hardhat clean",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.29.1",
+    "prettier": "^3.9.9"
+  }
+}
