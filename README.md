@@ -1,7 +1,7 @@
 # Ethereum Sepolia DApp
 
 ![Network](https://img.shields.io/badge/network-Sepolia%2011155111-8b7cf6)
-![Frontend](https://img.shields.io/badge/frontend-Next.js%2015- black)
+![Frontend](https://img.shields.io/badge/frontend-Next.js_15-black)
 ![Web3](https://img.shields.io/badge/web3-ethers%20v6-3b82f6)
 ![Contract](https://img.shields.io/badge/toolchain-Hardhat%202-yellow)
 ![License](https://img.shields.io/badge/license-MIT-green)
