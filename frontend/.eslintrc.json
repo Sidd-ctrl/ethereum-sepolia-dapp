@@ -1,0 +1,9 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "overrides": [
+    {
+      "files": ["**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[jt]s?(x)"],
+      "env": { "jest": true }
+    }
+  ]
+}

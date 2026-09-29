@@ -1,0 +1,32 @@
+{
+  "name": "ethereum-sepolia-dapp-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Next.js frontend for the Ethereum Sepolia DApp (MetaMask + ethers v6)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "ethers": "^6.17.0",
+    "next": "^15.5.26",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.0",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.7",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^15.5.26",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "prettier": "^3.9.9"
+  }
+}
